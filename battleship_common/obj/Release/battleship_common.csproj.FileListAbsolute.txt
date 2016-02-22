@@ -1,0 +1,4 @@
+C:\REPOSITORIO\BatallaNaval\battleship_common\bin\Release\battleship_common.dll
+C:\REPOSITORIO\BatallaNaval\battleship_common\bin\Release\battleship_common.pdb
+C:\REPOSITORIO\BatallaNaval\battleship_common\obj\Release\battleship_common.dll
+C:\REPOSITORIO\BatallaNaval\battleship_common\obj\Release\battleship_common.pdb

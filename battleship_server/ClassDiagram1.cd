@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="battleship_server.Field" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>BattleshipService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="battleship_server.Point" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>BattleshipService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="battleship_server.Game" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAgAAAAQAEAAAABAQAIAAAAAAUAAAABAAAAAAAA=</HashCode>
+      <FileName>BattleshipService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="battleship_server.Client" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAgAEAEAAQEAgmBBAAQCAAwAAoYQAgAAAAAAUUQ=</HashCode>
+      <FileName>BattleshipService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="battleship_server.BattleshipService" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAAAQQAgAACACAAAAAAEAEAAAAAAACAAAEEA=</HashCode>
+      <FileName>BattleshipService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="battleship_server.Server" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="battleship_server.IBattleshipService">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAgAACACAAAAAAEAEAAAAAAACAAAEEA=</HashCode>
+      <FileName>IBattleshipService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

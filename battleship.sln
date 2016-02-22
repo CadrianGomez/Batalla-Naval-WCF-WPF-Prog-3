@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "battleship_server", "battleship_server\battleship_server.csproj", "{54953236-F75C-45A8-BAFD-EDA91DD713FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "battleship_client", "battleship_client\battleship_client.csproj", "{3C546A83-3325-4670-9828-29F30AB624BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "battleship_common", "battleship_common\battleship_common.csproj", "{C1943468-8CD5-48C7-BDC0-98AFC252832A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54953236-F75C-45A8-BAFD-EDA91DD713FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54953236-F75C-45A8-BAFD-EDA91DD713FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54953236-F75C-45A8-BAFD-EDA91DD713FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54953236-F75C-45A8-BAFD-EDA91DD713FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C546A83-3325-4670-9828-29F30AB624BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C546A83-3325-4670-9828-29F30AB624BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C546A83-3325-4670-9828-29F30AB624BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C546A83-3325-4670-9828-29F30AB624BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1943468-8CD5-48C7-BDC0-98AFC252832A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1943468-8CD5-48C7-BDC0-98AFC252832A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1943468-8CD5-48C7-BDC0-98AFC252832A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1943468-8CD5-48C7-BDC0-98AFC252832A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

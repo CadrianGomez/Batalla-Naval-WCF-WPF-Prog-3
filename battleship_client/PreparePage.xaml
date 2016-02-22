@@ -1,0 +1,440 @@
+﻿<UserControl x:Class="battleship_client.PreparePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+             MinHeight="400" MinWidth="800">
+    <UserControl.Resources>
+        <Style x:Key="EmptyCell" TargetType="Rectangle">
+            <Setter Property="Stroke" Value="DarkCyan"/>
+            <Setter Property="StrokeThickness" Value="1"/>
+            <Setter Property="Fill" Value="MintCream"/>
+        </Style>
+        <Style x:Key="FilledCell" TargetType="Rectangle">
+            <Setter Property="Stroke" Value="Blue"/>
+            <Setter Property="StrokeThickness" Value="3"/>
+            <Setter Property="Fill" Value="MintCream"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Margin="10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Opacity="0.7">
+        <Grid.Background>
+            <ImageBrush ImageSource="images.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="{Binding ElementName=LayoutRoot, Path=ActualHeight}"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid HorizontalAlignment="Stretch" Margin="10" Name="battleField" 
+                  VerticalAlignment="Stretch"
+                  ShowGridLines="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+                <RowDefinition Height="27*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+                <ColumnDefinition Width="27*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Rectangle Name="cell0" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="2">
+                <Rectangle Name="cell1" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="3">
+                <Rectangle Name="cell2" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="4">
+                <Rectangle Name="cell3" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="5">
+                <Rectangle Name="cell4" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="6">
+                <Rectangle Name="cell5" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="7">
+                <Rectangle Name="cell6" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="8">
+                <Rectangle Name="cell7" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="9">
+                <Rectangle Name="cell8" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="10">
+                <Rectangle Name="cell9" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Rectangle Name="cell10" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="2">
+                <Rectangle Name="cell11" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="3">
+                <Rectangle Name="cell12" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="4">
+                <Rectangle Name="cell13" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="5">
+                <Rectangle Name="cell14" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="6">
+                <Rectangle Name="cell15" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="7">
+                <Rectangle Name="cell16" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="8">
+                <Rectangle Name="cell17" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="9">
+                <Rectangle Name="cell18" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="10">
+                <Rectangle Name="cell19" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="1">
+                <Rectangle Name="cell20" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="2">
+                <Rectangle Name="cell21" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="3">
+                <Rectangle Name="cell22" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="4">
+                <Rectangle Name="cell23" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="5">
+                <Rectangle Name="cell24" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="6">
+                <Rectangle Name="cell25" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="7">
+                <Rectangle Name="cell26" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="8">
+                <Rectangle Name="cell27" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="9">
+                <Rectangle Name="cell28" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="10">
+                <Rectangle Name="cell29" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="1">
+                <Rectangle Name="cell30" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="2">
+                <Rectangle Name="cell31" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="3">
+                <Rectangle Name="cell32" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="4">
+                <Rectangle Name="cell33" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="5">
+                <Rectangle Name="cell34" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="6">
+                <Rectangle Name="cell35" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="7">
+                <Rectangle Name="cell36" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="8">
+                <Rectangle Name="cell37" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="9">
+                <Rectangle Name="cell38" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="10">
+                <Rectangle Name="cell39" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="1">
+                <Rectangle Name="cell40" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="2">
+                <Rectangle Name="cell41" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="3">
+                <Rectangle Name="cell42" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="4">
+                <Rectangle Name="cell43" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="5">
+                <Rectangle Name="cell44" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="6">
+                <Rectangle Name="cell45" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="7">
+                <Rectangle Name="cell46" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="8">
+                <Rectangle Name="cell47" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="9">
+                <Rectangle Name="cell48" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="10">
+                <Rectangle Name="cell49" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="1">
+                <Rectangle Name="cell50" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="2">
+                <Rectangle Name="cell51" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="3">
+                <Rectangle Name="cell52" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="4">
+                <Rectangle Name="cell53" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="5">
+                <Rectangle Name="cell54" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="6">
+                <Rectangle Name="cell55" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="7">
+                <Rectangle Name="cell56" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="8">
+                <Rectangle Name="cell57" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="9">
+                <Rectangle Name="cell58" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="10">
+                <Rectangle Name="cell59" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="1">
+                <Rectangle Name="cell60" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="2">
+                <Rectangle Name="cell61" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="3">
+                <Rectangle Name="cell62" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="4">
+                <Rectangle Name="cell63" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="5">
+                <Rectangle Name="cell64" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="6">
+                <Rectangle Name="cell65" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="7">
+                <Rectangle Name="cell66" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="8">
+                <Rectangle Name="cell67" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="9">
+                <Rectangle Name="cell68" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="10">
+                <Rectangle Name="cell69" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="1">
+                <Rectangle Name="cell70" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="2">
+                <Rectangle Name="cell71" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="3">
+                <Rectangle Name="cell72" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="4">
+                <Rectangle Name="cell73" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="5">
+                <Rectangle Name="cell74" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="6">
+                <Rectangle Name="cell75" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="7">
+                <Rectangle Name="cell76" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="8">
+                <Rectangle Name="cell77" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="9">
+                <Rectangle Name="cell78" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="10">
+                <Rectangle Name="cell79" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="1">
+                <Rectangle Name="cell80" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="2">
+                <Rectangle Name="cell81" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="3">
+                <Rectangle Name="cell82" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="4">
+                <Rectangle Name="cell83" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="5">
+                <Rectangle Name="cell84" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="6">
+                <Rectangle Name="cell85" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="7">
+                <Rectangle Name="cell86" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="8">
+                <Rectangle Name="cell87" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="9">
+                <Rectangle Name="cell88" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="10">
+                <Rectangle Name="cell89" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="1">
+                <Rectangle Name="cell90" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="2">
+                <Rectangle Name="cell91" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="3">
+                <Rectangle Name="cell92" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="4">
+                <Rectangle Name="cell93" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="5">
+                <Rectangle Name="cell94" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="6">
+                <Rectangle Name="cell95" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="7">
+                <Rectangle Name="cell96" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="8">
+                <Rectangle Name="cell97" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="9">
+                <Rectangle Name="cell98" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="10">
+                <Rectangle Name="cell99" Style="{StaticResource EmptyCell}" MouseLeftButtonDown="Cell_LeftClick" MouseRightButtonDown="Cell_RightClick" MouseEnter="Cell_MouseEnter" />
+            </Grid>
+
+            <Label Grid.Row="0" Grid.Column="1" Content="A" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="2" Content="B" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="3" Content="C" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="4" Content="D" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="5" Content="E" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="6" Content="F" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="7" Content="G" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="8" Content="H" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="9" Content="I" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="10" Content="J" HorizontalAlignment="Center" FontWeight="Bold" />
+
+            <Label Grid.Row="1" Grid.Column="0" Content="1" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="2" Grid.Column="0" Content="2" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="3" Grid.Column="0" Content="3" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="4" Grid.Column="0" Content="4" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="5" Grid.Column="0" Content="5" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="6" Grid.Column="0" Content="6" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="7" Grid.Column="0" Content="7" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="8" Grid.Column="0" Content="8" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="9" Grid.Column="0" Content="9" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label Grid.Row="10" Grid.Column="0" Content="10" HorizontalAlignment="Center" FontWeight="Bold" />
+        </Grid>
+        <Grid Margin="10" HorizontalAlignment="Stretch" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="108"/>
+                <RowDefinition Height="23"/>
+                <RowDefinition/>
+                <RowDefinition Height="34"/>
+                <RowDefinition Height="38"/>
+            </Grid.RowDefinitions>
+            <GroupBox x:Name="groupBox" Header="Horientacion" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Height="41" Width="243" RenderTransformOrigin="0.495,0.551">
+                <Grid VerticalAlignment="Center" Height="28" Margin="10,0,16,1">
+                    <RadioButton x:Name="rbHorizontal" Content="Horizontal" HorizontalAlignment="Left" Margin="9,9,0,0" VerticalAlignment="Top"/>
+                    <RadioButton x:Name="rbVertical" Content="Vetical" HorizontalAlignment="Left" Margin="117,9,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="groupBox2" Header="Barcos" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Height="41" Width="360" RenderTransformOrigin="0.495,0.551" Grid.RowSpan="2">
+                <Grid VerticalAlignment="Center" Height="28" Margin="10,-5,-12,-4">
+                    <RadioButton x:Name="rbPortaAviones" Content="PortaAviones" HorizontalAlignment="Left" Margin="9,9,0,0" VerticalAlignment="Top"/>
+                    <RadioButton x:Name="rbSubmarino" Content="Submarino" HorizontalAlignment="Left" Margin="169,9,0,0" VerticalAlignment="Top" Checked="rbSubmarino_Checked"/>
+                    <RadioButton x:Name="rbAcorazado" Content="Acorazado" HorizontalAlignment="Left" Margin="258,9,0,0" VerticalAlignment="Top"/>
+                    <RadioButton x:Name="rbBote" Content="Bote" HorizontalAlignment="Left" Margin="111,9,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </GroupBox>
+            <Label Name="Greetings" Content="Posiciones Sus Barcos" FontSize="15" Grid.Row="0" Margin="0,0,0,81"/>
+
+            <Label Content="Chat:" FontWeight="Bold" Grid.RowSpan="4" Grid.Row="1" />
+            <Border BorderThickness="1" CornerRadius="2" BorderBrush="#FF4D485F" VerticalAlignment="Bottom" Grid.Row="2" Height="148">
+                <ScrollViewer Margin="0,9,0,0">
+                    <TextBlock HorizontalAlignment="Stretch"  VerticalAlignment="Bottom"  TextWrapping="Wrap" Name="textBlockMessages" Height="137" >
+                    </TextBlock>
+                </ScrollViewer>
+            </Border>
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="5" Name="messageInput"/>
+                <Button Content="Enviar" Grid.Column="1" Margin="5" Click="Button_Click_1"/>
+            </Grid>
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="119*"/>
+                    <ColumnDefinition Width="108*"/>
+                    <ColumnDefinition Width="153*"/>
+                </Grid.ColumnDefinitions>
+                <Button Name="RandomButton" FontSize="18" Content="Random" Margin="2" Click="Button_Click_3" Grid.Column="0"/>
+                <Button FontSize="18" Content="Salir" Margin="2" Click="Button_Click" Grid.Column="1"/>
+                <Button Name="ReadyButton" FontSize="18" Content="Listo" Grid.Column="2" Margin="2" Click="Button_Click_2"/>
+
+            </Grid>
+            <Button x:Name="button" Content="Limpiar" HorizontalAlignment="Left" Margin="280,44,0,0" VerticalAlignment="Top" Width="75" Click="button_Click_4"/>
+        </Grid>
+    </Grid>
+</UserControl>

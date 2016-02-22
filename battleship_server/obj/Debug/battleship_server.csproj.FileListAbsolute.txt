@@ -1,0 +1,24 @@
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\bin\Debug\battleship_server.exe.config
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\bin\Debug\battleship_server.exe
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\bin\Debug\battleship_server.pdb
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\bin\Debug\battleship_common.dll
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\bin\Debug\battleship_common.pdb
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\obj\Debug\battleship_server.csprojResolveAssemblyReference.cache
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\obj\Debug\battleship_server.exe
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_server\obj\Debug\battleship_server.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\bin\Debug\battleship_server.exe.config
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\bin\Debug\battleship_server.exe
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\bin\Debug\battleship_server.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\bin\Debug\battleship_common.dll
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\bin\Debug\battleship_common.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\obj\Debug\battleship_server.csprojResolveAssemblyReference.cache
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\obj\Debug\battleship_server.exe
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_server\obj\Debug\battleship_server.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_server\bin\Debug\battleship_common.dll
+F:\REPOSITORIO\BatallaNaval\battleship_server\bin\Debug\battleship_common.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_server\obj\Debug\battleship_server.csprojResolveAssemblyReference.cache
+F:\REPOSITORIO\BatallaNaval\battleship_server\obj\Debug\battleship_server.exe
+F:\REPOSITORIO\BatallaNaval\battleship_server\obj\Debug\battleship_server.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_server\bin\Debug\battleship_server.exe.config
+F:\REPOSITORIO\BatallaNaval\battleship_server\bin\Debug\battleship_server.exe
+F:\REPOSITORIO\BatallaNaval\battleship_server\bin\Debug\battleship_server.pdb

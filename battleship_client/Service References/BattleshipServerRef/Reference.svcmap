@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="08aecaed-1773-4af5-8762-54edacd5a377" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:80/battleship" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="battleship32.xsd" MetadataType="Schema" ID="3ed32768-eb6a-4a0f-b270-ead7ac0b3756" SourceId="1" SourceUrl="http://localhost/battleship?xsd=xsd0" />
+    <MetadataFile FileName="battleship31.xsd" MetadataType="Schema" ID="44b0ed28-0ae7-45c8-b30d-22c20615abaa" SourceId="1" SourceUrl="http://localhost/battleship?xsd=xsd2" />
+    <MetadataFile FileName="battleship1.disco" MetadataType="Disco" ID="8538c385-42ed-4b0d-aec9-eaadb6e1f2d6" SourceId="1" SourceUrl="http://localhost/battleship?disco" />
+    <MetadataFile FileName="battleship4.xsd" MetadataType="Schema" ID="4042a513-ec5c-467c-b943-8c73f8966033" SourceId="1" SourceUrl="http://localhost/battleship?xsd=xsd3" />
+    <MetadataFile FileName="BattleshipService1.wsdl" MetadataType="Wsdl" ID="b8ddd789-3d12-4df9-a171-40ac6e43ae6e" SourceId="1" SourceUrl="http://localhost/battleship?wsdl" />
+    <MetadataFile FileName="battleship3.xsd" MetadataType="Schema" ID="7f580463-7536-4519-8f39-878a9b1c8b21" SourceId="1" SourceUrl="http://localhost/battleship?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,108 @@
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\bin\Debug\battleship_client.exe.config
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\bin\Debug\battleship_client.exe
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\bin\Debug\battleship_client.pdb
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\bin\Debug\battleship_common.dll
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\bin\Debug\battleship_common.pdb
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\battleship_client.csprojResolveAssemblyReference.cache
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\WaitPage.baml
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\GamePage.baml
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\PreparePage.baml
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\WaitCircle.baml
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\LoginPage.baml
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\Main.baml
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\RoomsPage.baml
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\WaitPage.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\GamePage.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\PreparePage.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\WaitCircle.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\LoginPage.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\Main.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\RoomsPage.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\App.g.cs
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\battleship_client_MarkupCompile.cache
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\battleship_client.g.resources
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\battleship_client.Properties.Resources.resources
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\battleship_client.csproj.GenerateResource.Cache
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\battleship_client.exe
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_client\obj\Debug\battleship_client.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\bin\Debug\battleship_client.exe.config
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\bin\Debug\battleship_client.exe
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\bin\Debug\battleship_client.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\bin\Debug\battleship_common.dll
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\bin\Debug\battleship_common.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\battleship_client.csprojResolveAssemblyReference.cache
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\WaitPage.baml
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\GamePage.baml
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\PreparePage.baml
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\WaitCircle.baml
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\LoginPage.baml
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\Main.baml
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\RoomsPage.baml
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\WaitPage.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\GamePage.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\PreparePage.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\WaitCircle.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\LoginPage.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\Main.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\RoomsPage.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\App.g.cs
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\battleship_client_MarkupCompile.cache
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\battleship_client.g.resources
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\battleship_client.Properties.Resources.resources
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\battleship_client.csproj.GenerateResource.Cache
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\battleship_client.exe
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_client\obj\Debug\battleship_client.pdb
+C:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_client.exe.config
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.exe
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.pdb
+C:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_client.exe
+C:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_client.pdb
+C:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_common.dll
+C:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_common.pdb
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.csprojResolveAssemblyReference.cache
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitPage.baml
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\GamePage.baml
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\PreparePage.baml
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitCircle.baml
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\LoginPage.baml
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\Main.baml
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\RoomsPage.baml
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitPage.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\GamePage.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\PreparePage.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitCircle.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\LoginPage.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\Main.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\RoomsPage.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\App.g.cs
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client_MarkupCompile.cache
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.g.resources
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.Properties.Resources.resources
+C:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.csproj.GenerateResource.Cache
+F:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_client.exe.config
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.exe
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_client.exe
+F:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_client.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_common.dll
+F:\REPOSITORIO\BatallaNaval\battleship_client\bin\Debug\battleship_common.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.csprojResolveAssemblyReference.cache
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitPage.baml
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\GamePage.baml
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\PreparePage.baml
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitCircle.baml
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\LoginPage.baml
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\Main.baml
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\RoomsPage.baml
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitPage.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\GamePage.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\PreparePage.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\WaitCircle.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\LoginPage.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\Main.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\RoomsPage.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\App.g.cs
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client_MarkupCompile.cache
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.g.resources
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.Properties.Resources.resources
+F:\REPOSITORIO\BatallaNaval\battleship_client\obj\Debug\battleship_client.csproj.GenerateResource.Cache

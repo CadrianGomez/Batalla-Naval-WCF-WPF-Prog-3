@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/battleship_common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/battleship_common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="ShootType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Shoot" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ShootType" nillable="true" type="tns:ShootType" />
+  <xs:complexType name="Room">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreationTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creationTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Room" nillable="true" type="tns:Room" />
+  <xs:complexType name="Message">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreationTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="author" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creationTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Message" nillable="true" type="tns:Message" />
+  <xs:simpleType name="Cell">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Empty" />
+      <xs:enumeration value="Ship" />
+      <xs:enumeration value="Fire" />
+      <xs:enumeration value="DeadShip" />
+      <xs:enumeration value="Missed" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Cell" nillable="true" type="tns:Cell" />
+</xs:schema>

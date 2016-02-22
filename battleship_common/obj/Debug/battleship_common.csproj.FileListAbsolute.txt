@@ -1,0 +1,14 @@
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_common\bin\Debug\battleship_common.dll
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_common\bin\Debug\battleship_common.pdb
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_common\obj\Debug\battleship_common.csprojResolveAssemblyReference.cache
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_common\obj\Debug\battleship_common.dll
+C:\Users\Cadrian\Downloads\BattleShip-master (1)\BattleShip-master\battleship_common\obj\Debug\battleship_common.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_common\bin\Debug\battleship_common.dll
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_common\bin\Debug\battleship_common.pdb
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_common\obj\Debug\battleship_common.dll
+C:\Users\Cadrian\workspace\ProgIII\BatallaNaval\battleship_common\obj\Debug\battleship_common.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_common\bin\Debug\battleship_common.dll
+F:\REPOSITORIO\BatallaNaval\battleship_common\bin\Debug\battleship_common.pdb
+F:\REPOSITORIO\BatallaNaval\battleship_common\obj\Debug\battleship_common.csprojResolveAssemblyReference.cache
+F:\REPOSITORIO\BatallaNaval\battleship_common\obj\Debug\battleship_common.dll
+F:\REPOSITORIO\BatallaNaval\battleship_common\obj\Debug\battleship_common.pdb
